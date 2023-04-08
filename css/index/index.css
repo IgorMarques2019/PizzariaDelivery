@@ -88,13 +88,13 @@ header .container a {
 }
 
 #menu-exit {
-  display:none;
+  display: none;
   font-size: 30px;
-  position:absolute;
-  bottom:48px;
-  left:50%;
-  transform:translateX(-50%);
-  color:rgb(251, 244, 35);
+  position: absolute;
+  bottom: 48px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgb(251, 244, 35);
 }
 
 .menu-mobile {
@@ -107,7 +107,7 @@ header .container a {
   z-index: 9999;
   padding: 20px;
   backdrop-filter: blur(10px);
-  border-bottom:4px solid rgb(251, 244, 35);
+  border-bottom: 4px solid rgb(251, 244, 35);
 
 }
 
@@ -183,16 +183,17 @@ header .container a {
 
   /* MENU MOBILE */
   .search-header {
-    max-width:100%;
+    max-width: 100%;
   }
+
   .menu-on {
     display: block;
     animation: .3s menuOn forwards;
   }
 
   .menu-off {
-    top:0%;
-    animation:.3s menuOff forwards;
+    
+    animation: .3s menuOff forwards;
   }
 
   #menu_toggle {
@@ -200,24 +201,25 @@ header .container a {
   }
 
   #menu-exit {
-    display:block;
+    display: block;
   }
 
 
   /* Banner Topo */
   #banner-topo img {
-    aspect-ratio:16/6;
+    aspect-ratio: 16/6;
   }
+
   #banner-topo .banner-title h2 {
-    font-size:30px;
+    font-size: 30px;
   }
-  
+
 }
 
 
 @media screen and (max-width:430px) {
   .endereco-top {
-    font-size:12px;
+    font-size: 12px;
   }
 }
 
@@ -230,25 +232,25 @@ header .container a {
 /* ---- Animações --- */
 @keyframes menuOn {
   from {
-    top:-100%;
+    top: -100vh;
   }
 
   to {
-    top:0%;
+    top: 0%;
 
   }
-  
+
 }
 
 @keyframes menuOff {
   from {
-    display:block;
-    top:0;
+    display: block;
+    top: 0;
   }
 
   to {
-    top:-100%;
-    display:none;
+    top: -100vh;
+    display: none;
   }
-  
+
 }
