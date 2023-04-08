@@ -5,6 +5,13 @@
   margin: 0 auto;
 }
 
+
+
+head {
+  background-color: rgb(251, 244, 35);
+  color: #161616;
+}
+
 .endereco-top {
   background-color: rgb(251, 244, 35);
   color: #2e2e2e;
