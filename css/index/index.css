@@ -98,7 +98,7 @@ header .container a {
   display: none;
   font-size: 30px;
   position: absolute;
-  bottom: 48px;
+  bottom: 68px;
   left: 50%;
   transform: translateX(-50%);
   color: rgb(251, 244, 35);
